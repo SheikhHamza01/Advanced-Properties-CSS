@@ -1,0 +1,52 @@
+.radius{
+    border-radius: 25px;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.border-img{
+    padding: 15px;
+    border: 10px solid transparent;
+    border-image: url("./pexels-pixabay-268533.jpg") 30 round;
+}
+
+.shadow{
+    text-shadow: 2px 2px orange;
+}
+
+.transition{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transition: width 2s;
+}
+.transition:hover{
+    width: 300px;
+}
+
+.animation{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation-name: first;
+    animation-duration: 4s;
+}
+
+@keyframes first{
+    from{background-color:green;}
+    to {background-color: darkcyan;}
+}
+
+.pagination{
+    display: inline-block;
+}
+.pagination a{
+    text-decoration: none;
+    padding: 15px 32px ;
+    float: left;
+    color: black;
+}
+.pagination a:hover{
+    color: red;
+}
